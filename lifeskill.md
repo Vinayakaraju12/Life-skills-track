@@ -1,7 +1,7 @@
-# Data types of JavaScript
+## Data types of JavaScript
 There are two Data types
-    # Primitive date type
-       # Non-Primitive date type
+    1. Primitive date type
+    2. Non-Primitive date type
 ## Primitive data types
 Again There are five types of primitive data types in JavaScript that is 
 
@@ -235,7 +235,7 @@ function Node(element) {
             return currentNode.element; 
      }
 }
-## Reference 
+# Reference 
 If you want more examples go through this link
 * https://www.simplilearn.com/common-data-structures-in-javascript-article
 
@@ -307,7 +307,7 @@ Set is a collection of well defined and distinct objects, a set does not allow r
             });  
         }
     }
-## Reference
+# Reference
 If you want more examples go through this link
 * https://builtin.com/software-engineering-perspectives/javascript-data-structures
 
@@ -458,7 +458,7 @@ class BST {
     this.root = removeNode(this.root, data);
   }
 }
-## Reference
+# Reference
 If you want more examples go through this link
 * https://www.codecademy.com/resources/docs/javascript/hashtables
 7. Trie
@@ -556,6 +556,6 @@ function bfs(graph, root) {
   }
   return nodesLen;
 }
-## References 
+# References 
 If you want more examples go through this link
 * https://www.codecademy.com/resources/docs/javascript/hashtables
