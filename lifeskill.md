@@ -83,6 +83,10 @@ return this.storage[this.count - 1];
 return this.count;
   }
 }
+# References 
+If you want more examples go through this link
+* https://builtin.com/software-engineering-perspectives/javascript-data-structures
+
 2. Queue
 Queue is a linear data structure tht follows the FIFO(First in First Out)principle.it contains two pointers 
       1 front pointer
@@ -113,6 +117,10 @@ return collection.length === 0;
 return collection.length;
   }
 }
+# References 
+If you want more examples go through this link
+* https://builtin.com/software-engineering-perspectives/javascript-data-structures
+
 3. Linked List
 A Linked List is a chained data structure.Each node consists of two pieces of information.The data of node and the pointer to the next node.Linked list and conventional array are both linear data structures with serialized storage.
 
@@ -227,6 +235,10 @@ function Node(element) {
             return currentNode.element; 
      }
 }
+## Reference 
+If you want more examples go through this link
+* https://www.simplilearn.com/common-data-structures-in-javascript-article
+
 4. Set
 Set is a collection of well defined and distinct objects, a set does not allow repeating elements and is not indexed.
 
@@ -295,6 +307,10 @@ Set is a collection of well defined and distinct objects, a set does not allow r
             });  
         }
     }
+## Reference
+If you want more examples go through this link
+* https://builtin.com/software-engineering-perspectives/javascript-data-structures
+
 5. Hash Table
 A hash table is an implementation of an associative array, a list of key value pairs that allow you to retrieve a value via a key.A hash represents the value of the corresponding key.
 
@@ -442,6 +458,9 @@ class BST {
     this.root = removeNode(this.root, data);
   }
 }
+## Reference
+If you want more examples go through this link
+* https://www.codecademy.com/resources/docs/javascript/hashtables
 7. Trie
 Trie stores the data step by step, each node in the tree represents a step. it is especially useful for the auto-complete function.
 
@@ -502,6 +521,9 @@ function Trie() {
                 return words.length > 0 ? words : null;  
     }
 }
+# Reference
+If you want more examples go through this link
+* https://www.codecademy.com/resources/docs/javascript/hashtables
 8. Graph
 A graph is a data structure where a node can have zero or more adjacent elements. The connection between two nodes is called edge. We use graphs in our daily lives without even realizing it. Graphs help calculate the best route in navigation apps or recommend friends with whom we might like to connect.
 
@@ -534,3 +556,6 @@ function bfs(graph, root) {
   }
   return nodesLen;
 }
+## References 
+If you want more examples go through this link
+* https://www.codecademy.com/resources/docs/javascript/hashtables
